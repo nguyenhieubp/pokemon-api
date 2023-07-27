@@ -11,7 +11,7 @@ app.use(formatData);
 
 /** ROUTER POKEMON */
 import routerPokemon from "./router/pokemon.router.js";
-app.use("/api/v1/pokemon", routerPokemon);
+app.use("/api/v1/pokemons", routerPokemon);
 
 /** HANDLE ERROR*/
 app.use((err, req, res, next) => {
